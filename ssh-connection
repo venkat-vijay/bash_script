@@ -1,0 +1,15 @@
+1. install ssh 
+2. remote connection
+
+
+3. cd .ssh
+4. ssh-keygen -t rsa
+5. ssh-copy-id -i ~/.ssh/id_rsa.pub user@ip_add
+
+
+6. nano ~/.ssh/config
+
+Host pi
+          HostName 192.168.180.10
+          Port 22
+          User nishant
